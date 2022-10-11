@@ -52,7 +52,7 @@ class Item extends React.Component {
               {this.props.item.image.length === 0 ? (
                   <img
                   src="/placeholder.png"
-                  alt="Placeholder Image"
+                  alt="Placeholder"
                   className="item-img"
                   style={{ height: "500px", width: "100%", borderRadius: "6px" }}
                   />
